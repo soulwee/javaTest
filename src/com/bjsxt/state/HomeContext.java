@@ -7,7 +7,7 @@ package com.bjsxt.state;
  *
  */
 public class HomeContext {
-	//如果是银行系统，这个Context类就是账号。根据金额不同，切换不同的状态！
+	//如果是Bank系统，这个Context类就是账号。根据金额不同，切换不同的状态！
 	
 	private State state;
 	

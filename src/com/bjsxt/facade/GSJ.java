@@ -1,10 +1,10 @@
 package com.bjsxt.facade;
 
-public interface 工商局  {
+public interface GSJ  {
 	void checkName();  //核名
 }
 
-class 海淀区工商局 implements 工商局 {
+class HaiDianGSJ implements GSJ {
 
 	@Override
 	public void checkName() {
